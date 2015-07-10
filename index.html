@@ -2,11 +2,22 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Snap</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
 	</head>
 	<body>
 		<h1>Snap</h1>
 		<h2>Click on the top of the deck to start playing</h2>
-
+		<section>
+			<div class="current__card">
+				<div class="old__card__label">Old Card:</div>
+				<div class="old__card__content">_</div>
+			</div>
+			<div class="new__card">
+				<div class="new__card__label">New Card:</div>
+				<div class="new__card__content">_</div>
+				
+			</div>
+		</section>
 		<canvas id="meter" width="500" height="50"></canvas>
 		
 		<script src="js/jquery-1.11.2.min.js"></script>
